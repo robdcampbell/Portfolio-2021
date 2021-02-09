@@ -20,6 +20,9 @@ export const InfoWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    height: 800px;
+  }
 `;
 
 //   imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
@@ -104,11 +107,11 @@ export const ImgWrap = styled.div`
   max-width: 555px;
   padding: 2rem 1rem;
   @media screen and (max-width: 760px) {
-    width: 90%;
+    width: 80%;
     padding: 0;
   }
   @media screen and (max-width: 480px) {
-    width: 100%;
+    width: 80%;
     padding: 0rem;
   }
 `;

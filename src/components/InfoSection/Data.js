@@ -60,11 +60,11 @@ export const homeObjThree = {
   topLine: "04. Auth Boilerplate",
   headline: "Firebase Authentication Starter Pack",
   description:
-    "Using React.js and React-Bootstrap, this starter project can be reconfigured with a new Firebase project simply by updating the Firebase SDK configuration info using private environmental variables.",
+    "Using React.js and React-Bootstrap, this starter project can be reconfigured with a new Firebase project simply by updating the Firebase SDK configuration info in a private environmental variable file",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
-  img: "../../images/svg-4.svg",
+  img: "../../images/authBoilerPlate.png",
   alt: "Project 3",
   primary: false,
   dark: true,
