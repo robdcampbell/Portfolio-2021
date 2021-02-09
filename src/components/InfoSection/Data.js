@@ -8,7 +8,7 @@ export const homeObjOne = {
   topLine: "01. Project + Issue Tracker",
   headline: "MoonBase. Projects Dashboard",
   description:
-    "Built using React.js and Semantic UI on the frontend and Firebase for databasing, authentication, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production - this app helps to stay on track.",
+    "Built using React.js and Semantic UI on the frontend and Firebase for databasing, authentication, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in development - this app helps to stay on track.",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
