@@ -56,7 +56,7 @@ export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: absolute;
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -95,6 +95,7 @@ export const HeroP = styled.p`
 export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
+  justify-content: flex-start;
   /* flex-direction: column; */
   align-items: center;
 `;
