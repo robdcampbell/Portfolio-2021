@@ -36,7 +36,7 @@ export const homeObjTwo = {
   headline: "Portfolio Site (Responsive) ",
   // description
   description:
-    "Using React and React Styled Components, I assembled this reponsive website to display way I've been tinkering at.",
+    "Using React and React Styled Components, I assembled this reponsive website to display what I've been tinkering at.",
   // button
   //buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
@@ -81,7 +81,7 @@ export const homeObjFour = {
   topLine: "03. Movie Library",
   headline: "Movie Library (React.js)",
   description:
-    "Fetching movie data from an external API, this React.js Movie Library displays movies based on your search criteria.",
+    "Fetching movie data from the OMDb API, this React.js Movie Library displays movies based on your search criteria.",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: false,
