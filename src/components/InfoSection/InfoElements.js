@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#3d3d3d")};
-
+  border-top: #757272 solid 1px;
   @media screen and (max-width: 768px) {
     padding: 200px 0;
   }
@@ -24,8 +22,6 @@ export const InfoWrapper = styled.div`
     height: 800px;
   }
 `;
-
-//   imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
 
 export const InfoRow = styled.div`
   display: grid;
@@ -58,10 +54,7 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `;
 
-// #e53d25, red: #f15050
-
 export const TopLine = styled.p`
-  color: #006bb6;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -74,7 +67,6 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#0c0c0c")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -86,7 +78,6 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 
 export const BtnWrap = styled.div`
@@ -98,7 +89,6 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  background-color: transparent;
   display: flex;
   align-items: center;
   margin: 0 auto;

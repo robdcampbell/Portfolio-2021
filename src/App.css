@@ -4,10 +4,31 @@
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.body {
-  color: #757272;
+
+/* //// CSS Variables //// */
+
+/* //// GLOBAL STYLES //// */
+
+body {
+  /* off-white color */
+  color: rgb(240, 229, 211);
+  /* color: #fff; */
+  background-color: #0a0a0a;
+  /* Linear / Radial Gradient? */
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-.example {
-  color: #555555;
+a {
+  color: rgb(240, 229, 211);
+  text-decoration: none;
+}
+a:hover {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+/* //// TEXT //// */
+/* primary, secondary, description */
+.text__primary {
 }
