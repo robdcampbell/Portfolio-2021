@@ -77,7 +77,9 @@ export const AboutH3 = styled.h3`
 `;
 
 export const AboutH4 = styled.h4`
-  /* border-top: #c0c0c0 solid 1px; */
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
 `;
 
 export const AboutP = styled.p`

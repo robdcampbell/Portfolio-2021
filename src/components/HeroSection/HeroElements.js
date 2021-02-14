@@ -8,9 +8,10 @@ export const HeroContainer = styled.div`
   align-items: flex-start;
   padding: 2rem;
   min-height: 690px;
-  max-width: 1200px;
+  max-width: 1600px;
   margin-top: 3rem;
   position: relative;
+  border-bottom: #757272 solid 1px;
 
   @media screen and (max-width: 480px) {
     min-height: 100vh;
@@ -19,11 +20,23 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-weight: 200;
+  line-height: 0.9;
+
   font-size: 5rem;
-  /* letter-spacing: -0.4rem; */
-  border-bottom: #555555 solid 1px;
+  margin-bottom: 0.5rem;
+  max-width: 500px;
+  transition: 1s;
+  /* line-height: 0.7; */
+
+  letter-spacing: -0.1rem;
+  /* border-bottom: #555555 solid 1px; */
+
+  &:hover {
+    color: #c0c0c0;
+    /* letter-spacing: 0.1rem; */
+  }
 
   @media screen and (max-width: 480px) {
     font-size: 3rem;
@@ -31,9 +44,9 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-  margin-top: 24px;
+  border-top: #555555 solid 1px;
   font-size: 24px;
-  max-width: 600px;
+  max-width: 500px;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;

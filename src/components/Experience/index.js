@@ -31,14 +31,7 @@ const Experience = () => {
       <AboutBody>
         <AboutCard>
           <AboutH3>Systems Administrator</AboutH3>
-          <AboutH4>
-            <strong> Currently:</strong>
-          </AboutH4>
-          <AboutP>
-            <strong>2019-Present.</strong>
-            SVA New York, NY
-          </AboutP>
-
+          <AboutH4>2019-Present. School of Visual Arts: NYC, NEW YORK</AboutH4>
           <AboutP>
             I'm currently a Systems Administrator in the MFA Computer Arts
             program at the School of Visual Arts (SVA), working as part of a

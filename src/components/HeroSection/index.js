@@ -22,7 +22,7 @@ const HeroSection = () => {
     <HeroContainer>
       <HeroH1>rob campbell</HeroH1>
       <HeroP>
-        Web Development & Creative Technology.
+        Web Developer & Creative Technologist based in NYC.
         <HeroBtnWrapper>
           <Button
             to="project-1"

@@ -20,8 +20,8 @@ body {
 }
 .dark__mode {
   /* off-white color */
-  /* color: rgb(240, 229, 211); */
-  color: rgb(210, 210, 210);
+  /* color: rgb(210, 210, 210); */
+  color: #fff;
   background-color: #0a0a0a;
   /* Linear / Radial Gradient? */
 }
@@ -29,8 +29,8 @@ body {
 .light__mode {
   /* off-white color */
   color: #0a0a0a;
-  /* color: #fff; */
-  background-color: rgb(240, 229, 211);
+  background-color: #fff;
+  /* background-color: rgb(240, 229, 211); */
   /* Linear / Radial Gradient? */
 }
 

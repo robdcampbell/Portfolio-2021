@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-  border-top: #757272 solid 1px;
+  /* border-top: #757272 solid 1px; */
   padding: 5rem 2rem;
 
   @media screen and (max-width: 768px) {
@@ -21,33 +21,6 @@ export const InfoWrapper = styled.div`
   @media screen and (max-width: 800px) {
   }
 `;
-
-// FIX THIS ! ! !
-
-// export const InfoRow = styled.div`
-//   display: grid;
-//   grid-template-columns: minmax(auto, 1fr);
-//   align-items: center;
-
-//   grid-template-areas: ${({ imgStart }) =>
-//     imgStart ? `'col2 col1'` : `'col1 col2'`};
-
-//   @media screen and (max-width: 760px) {
-//     grid-template-areas: ${({ imgStart }) =>
-//       imgStart ? `'col1' 'col2'` : `'col1' 'col2' `};
-//   }
-// `;
-
-// export const Column1 = styled.div`
-//   margin-bottom: 15px;
-//   padding: 0 15px;
-//   grid-area: col1;
-// `;
-// export const Column2 = styled.div`
-//   margin-bottom: 15px;
-//   padding: 0 15px;
-//   grid-area: col2;
-// `;
 
 export const InfoRow = styled.div`
   display: grid;
@@ -75,22 +48,25 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 `;
 
 export const TopLine = styled.p`
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1rem;
   letter-spacing: 1.4px;
+  font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: #555 solid 1px;
 `;
-export const Heading = styled.h1`
+export const Heading = styled.h2`
   margin-bottom: 1.5rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 200;
+  text-transform: uppercase;
 
   @media screen and (max-width: 480px) {
     font-size: 1.75rem;
