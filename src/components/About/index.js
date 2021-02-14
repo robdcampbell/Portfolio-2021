@@ -14,15 +14,15 @@ import {
 const About = () => {
   return (
     <AboutContainer id="about-me">
-      <AboutH1> About me. </AboutH1>
+      <AboutH2> About me </AboutH2>
       <AboutWrapper>
         <ImgWrap>
           <Img
             src="../../images/profilePic.jpg"
-            alt="Rob eating a bagel in the woods"
+            alt="Rob Campbell Profile Pic"
           />
         </ImgWrap>
-        <div>
+        <div style={{}}>
           <AboutCard>
             <h3>Education</h3>
             <AboutP>

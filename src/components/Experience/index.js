@@ -12,14 +12,12 @@ import { SiFirebase } from "react-icons/si";
 import { DiPostgresql, DiMongodb } from "react-icons/di";
 import {
   AboutContainer,
-  AboutH1,
+  AboutHeader,
+  AboutBody,
   AboutH2,
   AboutH3,
   AboutH4,
-  AboutWrapper,
   AboutP,
-  Img,
-  ImgWrap,
   AboutCard,
   A,
 } from "./ExperienceElements";
@@ -27,10 +25,12 @@ import {
 const Experience = () => {
   return (
     <AboutContainer id="about">
-      <AboutH1> Experience</AboutH1>
-      <AboutWrapper>
+      <AboutHeader>
+        <AboutH2> Experience</AboutH2>
+      </AboutHeader>
+      <AboutBody>
         <AboutCard>
-          <AboutH2>Systems Administrator</AboutH2>
+          <AboutH3>Systems Administrator</AboutH3>
           <AboutH4>
             <strong> Currently:</strong>
           </AboutH4>
@@ -64,7 +64,7 @@ const Experience = () => {
         </AboutCard>
         <div>
           <AboutCard>
-            <AboutH2>Languages / Technologies:</AboutH2>
+            <AboutH3>Languages / Technologies:</AboutH3>
             <AboutP>
               <FaJsSquare style={{ fontSize: "2rem" }} />
               <strong>Javascript</strong>
@@ -74,8 +74,20 @@ const Experience = () => {
               <strong> React.js/Redux</strong>
             </AboutP>
             <AboutP>
+              <FaHtml5 style={{ fontSize: "2rem" }} />
+              <strong> HTML</strong>
+            </AboutP>
+            <AboutP>
+              <FaCss3Alt style={{ fontSize: "2rem" }} />
+              <strong>CSS</strong>
+            </AboutP>
+            <AboutP>
               <FaNodeJs style={{ fontSize: "2rem" }} />{" "}
               <strong> Node.js</strong>
+            </AboutP>
+            <AboutP>
+              <FaGitSquare style={{ fontSize: "2rem" }} />
+              <strong>Git</strong>
             </AboutP>
             <AboutP>
               <SiFirebase style={{ fontSize: "1.5rem" }} />
@@ -89,18 +101,6 @@ const Experience = () => {
               <DiPostgresql style={{ fontSize: "1.5rem" }} />{" "}
               <strong> PostgreSQL</strong>
             </AboutP>
-            <AboutP>
-              <FaGitSquare style={{ fontSize: "2rem" }} />
-              <strong>Git</strong>
-            </AboutP>
-            <AboutP>
-              <FaHtml5 style={{ fontSize: "2rem" }} />
-              <strong> HTML</strong>
-            </AboutP>
-            <AboutP>
-              <FaCss3Alt style={{ fontSize: "2rem" }} />
-              <strong>CSS</strong>
-            </AboutP>
           </AboutCard>
         </div>
         <A
@@ -110,7 +110,7 @@ const Experience = () => {
         >
           Click here for my Resumé.
         </A>
-      </AboutWrapper>
+      </AboutBody>
     </AboutContainer>
   );
 };

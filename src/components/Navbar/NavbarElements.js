@@ -5,7 +5,6 @@ import { Link as LinkS } from "react-scroll";
 // styled components: exporting the variable = styled.TAGNAME
 // followed up with backTicks, and the CSS properties added to that tag
 export const Nav = styled.nav`
-  /* background: ${({ scrollNav }) => (scrollNav ? "#000" : "#0c0c0c")}; */
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -13,7 +12,6 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  background-color: #0a0a0a;
   top: 0;
   z-index: 10;
 
@@ -34,6 +32,17 @@ export const NavbarContainer = styled.div`
   }
 `;
 
+export const NavRight = styled.div`
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
 // Named like this because the "LinkR" will act as a logo link, and use router to send you to another page.
 export const NavLogo = styled(LinkR)`
   justify-self: flex-start;
@@ -42,6 +51,7 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
+  /* padding: 2rem; */
   font-weight: bold;
   text-decoration: none;
   &:hover {
@@ -59,6 +69,7 @@ export const MobileIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
+    color: #fff;
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
@@ -70,10 +81,17 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22 px;
 
   @media screen and (max-width: 768px) {
     display: none;
+  }
+`;
+
+export const ChangeColorMode = styled.p`
+  cursor: pointer;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    border-bottom: #fff;
   }
 `;
 
@@ -89,7 +107,7 @@ export const NavLinks = styled(LinkS)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 1rem 1rem;
+  padding: 0rem 1rem;
   height: 100%;
   cursor: pointer;
   &:hover {
