@@ -108,7 +108,7 @@ const Experience = () => {
           style={{ marginTop: "5rem", fontSize: "1.5rem" }}
           target="_blank"
         >
-          Click here for my Resumé.
+          Resumé.(clickHere)
         </A>
       </AboutBody>
     </AboutContainer>

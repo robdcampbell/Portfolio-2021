@@ -57,7 +57,7 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "04. Auth Boilerplate",
+  topLine: "03. Auth Boilerplate",
   headline: "Firebase Authentication Starter Pack",
   description:
     "Using React.js and React-Bootstrap, this starter project can be reconfigured with a new Firebase project simply by updating the Firebase SDK configuration info in a private environmental variable file",
@@ -78,7 +78,7 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "03. Movie Library",
+  topLine: "04. Movie Library",
   headline: "Movie Library (React.js)",
   description:
     "Fetching movie data from the OMDb API, this React.js Movie Library displays movies based on your search criteria.",

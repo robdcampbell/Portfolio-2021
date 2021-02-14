@@ -2,8 +2,9 @@ import React from "react";
 
 import {
   AboutContainer,
-  AboutH1,
+  AboutHeader,
   AboutH2,
+  AboutH3,
   AboutWrapper,
   AboutP,
   Img,
@@ -14,7 +15,9 @@ import {
 const About = () => {
   return (
     <AboutContainer id="about-me">
-      <AboutH2> About me </AboutH2>
+      <AboutHeader>
+        <AboutH2> ABOUT ME </AboutH2>
+      </AboutHeader>
       <AboutWrapper>
         <ImgWrap>
           <Img
@@ -22,9 +25,9 @@ const About = () => {
             alt="Rob Campbell Profile Pic"
           />
         </ImgWrap>
-        <div style={{}}>
+        <div>
           <AboutCard>
-            <h3>Education</h3>
+            <AboutH3>EDUCATION</AboutH3>
             <AboutP>
               <strong>MFA: School of Visual Arts</strong> _ New York, NY
             </AboutP>

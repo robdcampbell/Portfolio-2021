@@ -12,9 +12,8 @@ export const AboutContainer = styled.div`
 export const AboutHeader = styled.div`
   width: 100%;
   display: flex;
-  padding: 0 3.5rem;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding-bottom: 2rem;
 
   @media screen and (max-width: 900px) {
@@ -58,6 +57,8 @@ export const AboutCard = styled.div`
 `;
 
 export const AboutH2 = styled.h2`
+  font-weight: 200;
+  text-transform: uppercase;
   font-size: 2.5rem;
   margin-bottom: 2rem;
 
@@ -67,6 +68,8 @@ export const AboutH2 = styled.h2`
   }
 `;
 export const AboutH3 = styled.h3`
+  font-weight: 200;
+  text-transform: uppercase;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -89,6 +92,8 @@ export const AboutP = styled.p`
 `;
 
 export const A = styled.a`
+  font-weight: 200;
+  text-transform: uppercase;
   margin-left: 1rem;
   text-decoration: none;
 

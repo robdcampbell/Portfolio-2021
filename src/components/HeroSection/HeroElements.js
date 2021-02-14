@@ -19,8 +19,10 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
+  /* text-transform: uppercase; */
+  font-weight: 200;
   font-size: 5rem;
-  font-weight: 400;
+  /* letter-spacing: -0.4rem; */
   border-bottom: #555555 solid 1px;
 
   @media screen and (max-width: 480px) {

@@ -10,6 +10,7 @@ import {
   SocialLogo,
   SocialIcons,
   SocialIconLink,
+  FooterP,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -29,14 +30,15 @@ const Footer = () => {
           exact="true"
           offset={-80}
         >
-          <BsArrow90DegUp className="text__primary" /> <p>to the top.</p>
+          <BsArrow90DegUp className="text__primary" />{" "}
+          <FooterP>to the top.</FooterP>
         </SocialLogo>
 
-        <FooterContainerRight>
-          <FooterExternalLink href="mailto:rdeancampbell@gmail.com">
-            rdeancampbell@gmail.com
-          </FooterExternalLink>
+        <FooterExternalLink href="mailto:rdeancampbell@gmail.com">
+          rdeancampbell@gmail.com
+        </FooterExternalLink>
 
+        <FooterContainerRight>
           <SocialIcons>
             <SocialIconLink
               href="https://github.com/robdcampbell"

@@ -21,7 +21,7 @@ body {
 .dark__mode {
   /* off-white color */
   /* color: rgb(240, 229, 211); */
-  color: #fff;
+  color: rgb(210, 210, 210);
   background-color: #0a0a0a;
   /* Linear / Radial Gradient? */
 }
