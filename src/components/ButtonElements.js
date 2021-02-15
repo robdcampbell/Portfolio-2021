@@ -9,12 +9,12 @@ export const Button = styled(Link)`
   color: ${({ dark }) => (dark ? "#292929" : "#fff")};
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   outline: none;
-  border: none;
+  border: #292929 solid 1px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
 
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -23,7 +23,6 @@ export const Button = styled(Link)`
   }
   @media screen and (max-width: 760px) {
     display: block;
-    /* margin: 1rem; */
     margin-bottom: 0;
   } ;
 `;

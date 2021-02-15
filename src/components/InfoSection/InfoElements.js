@@ -26,7 +26,7 @@ export const InfoRow = styled.div`
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: flex-start;
 
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};

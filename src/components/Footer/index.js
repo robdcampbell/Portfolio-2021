@@ -13,7 +13,7 @@ import {
   FooterP,
 } from "./FooterElements";
 
-const Footer = () => {
+const Footer = ({ darkMode }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -30,17 +30,23 @@ const Footer = () => {
           exact="true"
           offset={-80}
         >
-          <BsArrow90DegUp className="text__primary" />{" "}
-          <FooterP>to the top.</FooterP>
+          <BsArrow90DegUp className={darkMode ? " a__dark " : " a__light"} />{" "}
+          <FooterP className={darkMode ? " a__dark " : " a__light"}>
+            to the top.
+          </FooterP>
         </SocialLogo>
 
-        <FooterExternalLink href="mailto:rdeancampbell@gmail.com">
+        <FooterExternalLink
+          href="mailto:rdeancampbell@gmail.com"
+          className={darkMode ? " a__dark " : " a__light"}
+        >
           rdeancampbell@gmail.com
         </FooterExternalLink>
 
         <FooterContainerRight>
           <SocialIcons>
             <SocialIconLink
+              className={darkMode ? " a__dark " : " a__light"}
               href="https://github.com/robdcampbell"
               target="_blank"
               aria-label="Github"
@@ -49,6 +55,7 @@ const Footer = () => {
             </SocialIconLink>
 
             <SocialIconLink
+              className={darkMode ? " a__dark " : " a__light"}
               href="https://www.linkedin.com/in/rob-campbell-a6354a75/"
               target="_blank"
               aria-label="Linkedin"
@@ -56,6 +63,7 @@ const Footer = () => {
               <FaLinkedin />
             </SocialIconLink>
             <SocialIconLink
+              className={darkMode ? " a__dark " : " a__light"}
               href="https://codepen.io/robdcampbell"
               target="_blank"
               aria-label="Codepen"

@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { FaBars, FaGhost, FaRegLightbulb, FaAsterisk } from "react-icons/fa";
+import {
+  FaBars,
+  FaGhost,
+  FaRegLightbulb,
+  FaAsterisk,
+  FaRegMoon,
+} from "react-icons/fa";
+import { BsBrightnessHigh } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
+  NavLeft,
   NavRight,
   NavLogo,
   MobileIcon,
@@ -14,7 +22,7 @@ import {
   ChangeColorMode,
 } from "./NavbarElements";
 
-const Navbar = ({ toggle, setColorMode, darkMode }) => {
+const Navbar = ({ toggle, darkMode, setColorMode }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const [robAvatar, setRobAvatar] = useState(false);
 
@@ -45,28 +53,37 @@ const Navbar = ({ toggle, setColorMode, darkMode }) => {
           // className={darkMode ? "dark__mode" : "light__mode"}
         >
           <NavbarContainer>
-            <NavLogo
-              to="/"
-              onClick={toggleHome}
-              onMouseEnter={(e) => setRobAvatar(true)}
-              onMouseLeave={(e) => setRobAvatar(false)}
-              className={darkMode ? " a__dark " : " a__light"}
-            >
-              {darkMode ? (
-                <FaAsterisk />
-              ) : (
-                <FaAsterisk style={{ color: "#0a0a0a" }} />
-              )}
-              {/* {robAvatar ? <FaGhost /> : "rob."} */}
-            </NavLogo>
-            <MobileIcon onClick={toggle}>
-              {darkMode ? <FaBars /> : <FaBars style={{ color: "#0a0a0a" }} />}
-            </MobileIcon>
+            <NavLeft>
+              <NavLogo
+                to="/"
+                onClick={toggleHome}
+                onMouseEnter={(e) => setRobAvatar(true)}
+                onMouseLeave={(e) => setRobAvatar(false)}
+                className={darkMode ? " a__dark " : " a__light"}
+              >
+                ROB
+              </NavLogo>
+            </NavLeft>
             <NavRight>
+              <ChangeColorMode>
+                {darkMode ? (
+                  <BsBrightnessHigh onClick={setColorMode} />
+                ) : (
+                  <FaRegMoon
+                    style={{ color: "#0a0a0a" }}
+                    onClick={setColorMode}
+                  />
+                )}
+              </ChangeColorMode>
+              <MobileIcon onClick={toggle}>
+                {darkMode ? (
+                  <FaBars />
+                ) : (
+                  <FaBars style={{ color: "#0a0a0a" }} />
+                )}
+              </MobileIcon>
+
               <NavMenu>
-                <ChangeColorMode onClick={setColorMode}>
-                  {darkMode ? "(light)" : "(dark)"}
-                </ChangeColorMode>
                 <NavItem>
                   <NavLinks
                     to="project-1"

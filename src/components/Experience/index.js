@@ -22,7 +22,7 @@ import {
   A,
 } from "./ExperienceElements";
 
-const Experience = () => {
+const Experience = ({ darkMode }) => {
   return (
     <AboutContainer id="about">
       <AboutHeader>
@@ -47,6 +47,7 @@ const Experience = () => {
             See more of my professional experience on:
             <strong>
               <A
+                className={darkMode ? " a__dark" : " a__light "}
                 href="https://www.linkedin.com/in/rob-campbell-a6354a75/"
                 target="_blank"
               >
@@ -97,6 +98,7 @@ const Experience = () => {
           </AboutCard>
         </div>
         <A
+          className={darkMode ? " a__dark" : " a__light "}
           href="../images/Campbell_Rob_resume_2021.pdf"
           style={{ marginTop: "5rem", fontSize: "1.5rem" }}
           target="_blank"

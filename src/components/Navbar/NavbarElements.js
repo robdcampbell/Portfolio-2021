@@ -31,6 +31,15 @@ export const NavbarContainer = styled.div`
     padding-left: 0;
   }
 `;
+export const NavLeft = styled.div`
+  padding-left: 1.5rem;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const NavRight = styled.div`
   padding: 0;
@@ -45,14 +54,15 @@ export const NavRight = styled.div`
 
 // Named like this because the "LinkR" will act as a logo link, and use router to send you to another page.
 export const NavLogo = styled(LinkR)`
-  justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
-  display: flex;
+  /* border-top: red solid 1px;
+  border-bottom: red solid 1px; */
+  padding: 0;
   align-items: center;
-  margin-left: 24px;
+  margin: 0;
   /* padding: 2rem; */
-  font-weight: bold;
+  font-weight: 200;
   text-decoration: none;
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -88,10 +98,25 @@ export const NavMenu = styled.ul`
 `;
 
 export const ChangeColorMode = styled.p`
+  /* border-top: red solid 1px;
+  border-bottom: red solid 1px; */
+  padding-top: 0.3rem;
   cursor: pointer;
   &:hover {
     transition: all 0.2s ease-in-out;
-    border-bottom: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    /* margin-right: 1rem; */
+    padding-top: 0.25rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    transform: translate(-100%, 60%);
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
   }
 `;
 
@@ -105,6 +130,8 @@ export const NavItem = styled.li`
 //&.active is the active underline at the Nav
 export const NavLinks = styled(LinkS)`
   display: flex;
+  text-transform: uppercase;
+  font-weight: 200;
   align-items: center;
   text-decoration: none;
   padding: 0rem 1rem;

@@ -12,7 +12,7 @@ import {
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import Experience from "../components/Experience";
-import Services from "../components/About";
+import About from "../components/About";
 import Sidebar from "../components/Sidebar";
 
 const Home = () => {
@@ -36,15 +36,15 @@ const Home = () => {
           darkMode={darkMode}
           setColorMode={setColorMode}
         />
-        <HeroSection />
-        <InfoSection {...homeObjOne} />
-        <InfoSection {...homeObjTwo} />
-        <InfoSection {...homeObjThree} />
-        <InfoSection {...homeObjFour} />
-        <InfoSection {...homeObjFive} />
-        <Experience />
-        <Services />
-        <Footer />
+        <HeroSection darkMode={darkMode} setColorMode={setColorMode} />
+        <InfoSection {...homeObjOne} setColorMode={setColorMode} />
+        <InfoSection {...homeObjTwo} setColorMode={setColorMode} />
+        <InfoSection {...homeObjThree} setColorMode={setColorMode} />
+        <InfoSection {...homeObjFour} setColorMode={setColorMode} />
+        <InfoSection {...homeObjFive} setColorMode={setColorMode} />
+        <Experience darkMode={darkMode} />
+        <About darkMode={darkMode} />
+        <Footer darkMode={darkMode} />
       </div>
     </div>
   );

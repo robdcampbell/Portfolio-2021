@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "01. Project + Issue Tracker",
+  topLine: "01.",
   headline: "MoonBase. Projects Dashboard",
   description:
     "Built using React.js and Semantic UI on the frontend and Firebase for databasing, authentication, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in development - this app helps to stay on track.",
@@ -31,9 +31,9 @@ export const homeObjTwo = {
   // Description text color
   lightTextDesc: true,
   //Topline - small intro text
-  topLine: "02. robcampbelldev.com (this website)",
+  topLine: "02.",
   // headline - content title
-  headline: "Portfolio Site (Responsive) ",
+  headline: "robcampbelldev.com (this website) ",
   // description
   description:
     "Using React and React Styled Components, I assembled this reponsive website to display what I've been tinkering at.",
@@ -43,7 +43,7 @@ export const homeObjTwo = {
   //imgStart swaps the image and text locations
   imgStart: false,
   // Image **** HAVING ISSUES WITH THE PATH
-  img: "../../images/portfolio_landing.png",
+  img: "../../images/portfolio_dark.png",
   alt: "Project 2",
   primary: true,
   dark: true,
@@ -57,8 +57,8 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "03. Auth Boilerplate",
-  headline: "Firebase Authentication Starter Pack",
+  topLine: "03.",
+  headline: "Authentication Boilerplate",
   description:
     "Using React.js and React-Bootstrap, this starter project can be reconfigured with a new Firebase project simply by updating the Firebase SDK configuration info in a private environmental variable file",
   buttonLabel: "View Project",
@@ -78,7 +78,7 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "04. Movie Library",
+  topLine: "04.",
   headline: "Movie Library (React.js)",
   description:
     "Fetching movie data from the OMDb API, this React.js Movie Library displays movies based on your search criteria.",
@@ -99,8 +99,8 @@ export const homeObjFive = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "05. Daily NASA exploration",
-  headline: "NASA Explorer (coming soon...)",
+  topLine: "05. ",
+  headline: "NASA Explorer (in progress...)",
   description:
     "Using external data accessible through NASA's public API's, this app is used to exhibit daily information provided from NASA.",
   buttonLabel: "View Project",
