@@ -1,37 +1,40 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.div`
+export const ExperienceContainer = styled.section`
+  display: flex;
+  justify-content: center;
+  border-top: #757272 solid 1px;
+`;
+export const ExperienceInnerWrapper = styled.div`
+  max-width: 1200px;
   padding: 3rem;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: #757272 solid 1px;
 `;
 
-export const AboutHeader = styled.div`
+export const ExperienceHeader = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding-bottom: 2rem;
 
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0;
-  }
+  } */
 `;
 
-export const AboutBody = styled.div`
-  max-width: 1000px;
+export const ExperienceBody = styled.div`
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: flex-start;
   justify-content: center;
   grid-gap: 2rem;
-  padding: 0 3.5rem;
+  /* padding: 0 3.5rem; */
 
   @media screen and (max-width: 900px) {
     grid-template-columns: 1fr;
@@ -42,12 +45,11 @@ export const AboutBody = styled.div`
 `;
 
 // MAKE ALL CONTAINERS SAME HEIGHT, NO MATTER WHAT CONTENT
-export const AboutCard = styled.div`
+export const ExperienceCard = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 1rem;
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 900px) {
@@ -56,7 +58,7 @@ export const AboutCard = styled.div`
   }
 `;
 
-export const AboutH2 = styled.h2`
+export const ExperienceH2 = styled.h2`
   font-weight: 200;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -64,10 +66,10 @@ export const AboutH2 = styled.h2`
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
-    align-self: flex-start;
+    /* align-self: flex-start; */
   }
 `;
-export const AboutH3 = styled.h3`
+export const ExperienceH3 = styled.h3`
   font-weight: 200;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -76,13 +78,13 @@ export const AboutH3 = styled.h3`
   border-bottom: #555 solid 1px;
 `;
 
-export const AboutH4 = styled.h4`
+export const ExperienceH4 = styled.h4`
   margin-bottom: 1rem;
   font-weight: 400;
   text-transform: uppercase;
 `;
 
-export const AboutP = styled.p`
+export const ExperienceP = styled.p`
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1rem;
