@@ -37,20 +37,23 @@ const About = () => {
                 <strong> BFA: Northern Michigan University.</strong> Marquette,
                 MI
               </AboutP>
+              <AboutH3>BEYOND</AboutH3>
               <AboutP style={{ paddingBottom: ".5rem" }}>
-                After working a decade within museums, galleries, and auction
-                houses in NYC and Detroit (& a few places in-between), I
-                combined my interest and knowledge of technology & design to
-                shift into web development and creative technology. I'm a
-                life-learner, and for the most part self-taught coder. Aside
-                from technology, I love learning about languages and art.
+                After studying fine art and design in undergraduate and graduate
+                school, I combined my interest and knowledge of technology &
+                design into creative technology web development.
+              </AboutP>
+              <AboutP style={{ paddingBottom: ".5rem" }}>
+                I'm a life-learner, and for the most part self-taught coder.
+                Aside from technology, I love learning about languages and art.
               </AboutP>
               <AboutP>
-                I spend most of my days running, playing Legos with my daughter,
-                and biking through the streets of Brooklyn/NYC. My native
-                language is English, I'm fluent in Portuguese (Brazilian) and
-                speak basic conversational Spanish.
+                Natively I speak English, I'm fluent in Portuguese (Brazilian)
+                and speak basic conversational Spanish. I spend most of my days
+                running, playing Legos with my daughter, and biking through the
+                streets of Brooklyn/NYC.
               </AboutP>
+              <AboutP style={{ paddingBottom: ".5rem" }}></AboutP>
             </AboutCard>
           </div>
         </AboutBody>

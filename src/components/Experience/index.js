@@ -40,15 +40,13 @@ const Experience = ({ darkMode }) => {
               Web Developer / IT Professional / Creative Technologist
             </ExperienceH3>
             <ExperienceP style={{ marginBottom: ".5rem" }}>
-              I've worked range of roles bridging art, design, and technology
+              I've worked a range of roles bridging art, design, and technology
               within museums, galleries, colleges, and production studios in NYC
               and Detroit (and a few places in-between).
             </ExperienceP>
             <ExperienceP style={{ marginBottom: ".5rem" }}>
-              Currently I'm a Systems Administrator of the MFA Computer Arts
-              program at the School of Visual Arts (SVA). Working as part of a
-              small team to oversee and maintain lab machines and servers, as
-              well as the department's licensing of lab software
+              Currently, I'm a Systems Administrator of the MFA Computer Arts
+              program at the School of Visual Arts (SVA).
             </ExperienceP>
             <ExperienceP>
               Check out some of my projects here:
