@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  FaBars,
-  FaGhost,
-  FaRegLightbulb,
-  FaAsterisk,
-  FaRegMoon,
-} from "react-icons/fa";
+import { FaBars, FaAsterisk, FaRegMoon } from "react-icons/fa";
 import { BsBrightnessHigh } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
@@ -50,7 +44,7 @@ const Navbar = ({ toggle, darkMode, setColorMode }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav
           scrollNav={scrollNav}
-          // className={darkMode ? "dark__mode" : "light__mode"}
+          className={darkMode ? "dark__mode" : "light__mode"}
         >
           <NavbarContainer>
             <NavLeft>
@@ -61,7 +55,11 @@ const Navbar = ({ toggle, darkMode, setColorMode }) => {
                 onMouseLeave={(e) => setRobAvatar(false)}
                 className={darkMode ? " a__dark " : " a__light"}
               >
-                ROB
+                {darkMode ? (
+                  <FaAsterisk />
+                ) : (
+                  <FaAsterisk style={{ color: "#292929" }} />
+                )}
               </NavLogo>
             </NavLeft>
             <NavRight>

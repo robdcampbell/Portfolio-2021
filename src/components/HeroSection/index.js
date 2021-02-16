@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Image from "../../images/sao_paulo.jpg";
+// import Image from "../../images/sao_paulo.jpg";
 import { Button } from "../ButtonElements";
-import { animateScroll as scroll } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
 import {
   HeroContainer,
   HeroH1,
@@ -25,16 +25,7 @@ const HeroSection = ({ setColorMode, darkMode }) => {
         <HeroP>
           Web Developer & Creative Technologist based in NYC.
           <HeroBtnWrapper>
-            <Button
-              to="#"
-              primary="true"
-              dark="true"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              onClick={setColorMode}
-            >
+            <Button to="#" primary="true" dark="true" onClick={setColorMode}>
               {darkMode ? "LightMode" : "DarkMode"}
             </Button>
             <Button
@@ -43,9 +34,9 @@ const HeroSection = ({ setColorMode, darkMode }) => {
               onMouseLeave={onHover}
               primary="true"
               dark="true"
-              smooth={true}
+              smooth="true"
               duration={500}
-              spy={true}
+              spy="true"
               exact="true"
             >
               Projects {hover ? <ArrowForward /> : <ArrowRight />}

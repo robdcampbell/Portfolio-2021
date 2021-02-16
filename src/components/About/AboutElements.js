@@ -1,13 +1,10 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+export const AboutContainer = styled.section`
   padding: 3rem;
   border-top: #757272 solid 1px;
-  /* background-color: red; */
+  display: flex;
+  justify-content: center;
 
   @media screen and (max-width: 900px) {
   }
@@ -15,8 +12,18 @@ export const AboutContainer = styled.div`
   }
 `;
 
+export const AboutInnerWrapper = styled.div`
+  max-width: 1200px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const AboutHeader = styled.div`
   width: 100%;
+  /* background-color: red; */
   display: flex;
   justify-content: flex-start;
 
@@ -26,18 +33,12 @@ export const AboutHeader = styled.div`
   }
 `;
 
-export const AboutWrapper = styled.div`
-  max-width: 1000px;
+export const AboutBody = styled.div`
+  /* margin: 0 auto; */
   /* background-color: red; */
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: flex-start;
-  align-items: flex-start;
-  grid-gap: 1rem;
-
+  display: flex;
   @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 `;
 
@@ -87,12 +88,12 @@ export const ImgWrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin-right: 3rem;
   border-radius: 0.5rem;
   max-width: 555px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 800px) {
     padding: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   @media screen and (max-width: 480px) {
     width: 100%;

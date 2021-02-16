@@ -29,7 +29,8 @@ body {
 .light__mode {
   /* off-white color */
   color: #0a0a0a;
-  background-color: rgb(255, 247, 234);
+  /* background-color: rgb(255, 247, 234); */
+  background-color: #fff;
   /* background-color: rgb(240, 229, 211); */
   /* Linear / Radial Gradient? */
 }

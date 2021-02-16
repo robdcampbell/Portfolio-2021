@@ -18,7 +18,7 @@ export const Button = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #000;
+    color: #c0c0c0;
     background: ${({ primary }) => (primary ? "#fff" : "#74bbed")};
   }
   @media screen and (max-width: 760px) {

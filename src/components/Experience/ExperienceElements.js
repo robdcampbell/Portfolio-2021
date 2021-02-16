@@ -49,12 +49,44 @@ export const ExperienceCard = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 900px) {
     margin-top: 2rem;
     padding: 0;
+  }
+`;
+
+export const StackCard = styled.div`
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 900px) {
+    margin-top: 2rem;
+
+    padding: 0;
+  }
+`;
+
+export const StackLanguages = styled.div`
+  display: flex;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+`;
+
+export const LanguagesLeft = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const LanguagesRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  @media screen and (max-width: 900px) {
+    margin-left: 0;
   }
 `;
 

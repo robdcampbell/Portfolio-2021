@@ -1,9 +1,7 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+// import { Button } from "../ButtonElements";
 import { ButtonE } from "../ButtonExternalElements";
-// HAVE TO IMPORT IMAGES THIS WAY
-import Image1 from "../../images/svg-1.svg";
-import Landing from "../../images/portfolio_landing.png";
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -32,9 +30,6 @@ const InfoSection = ({
   buttonLabel2,
   img,
   alt,
-  primary,
-  dark,
-  dark2,
   codeUrl,
   projectUrl,
 }) => {
@@ -51,31 +46,25 @@ const InfoSection = ({
                 <BtnWrap>
                   {buttonLabel && (
                     <ButtonE
-                      to="home"
-                      smooth={true}
-                      spy={true}
-                      exact="true"
+                      to="#"
                       offset={-80}
-                      primary={primary ? 1 : 0}
-                      dark={dark ? 0 : 1}
-                      dark2={dark2 ? 0 : 1}
+                      primary="true"
+                      dark="true"
                       href={projectUrl}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {buttonLabel}
                     </ButtonE>
                   )}
                   <ButtonE
-                    to="home"
-                    smooth={true}
-                    spy={true}
-                    exact="true"
+                    to="#"
                     offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 0 : 1}
-                    dark2={dark2 ? 0 : 1}
+                    primary="true"
+                    dark="true"
                     href={codeUrl}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {buttonLabel2}
                   </ButtonE>
@@ -84,7 +73,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <a href={projectUrl} target="_blank">
+                <a href={projectUrl} target="_blank" rel="noreferrer">
                   <Img src={img} alt={alt} />
                 </a>
               </ImgWrap>

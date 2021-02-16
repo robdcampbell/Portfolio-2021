@@ -19,6 +19,10 @@ import {
   ExperienceH4,
   ExperienceP,
   ExperienceCard,
+  StackCard,
+  StackLanguages,
+  LanguagesLeft,
+  LanguagesRight,
   A,
   ExperienceInnerWrapper,
 } from "./ExperienceElements";
@@ -60,47 +64,53 @@ const Experience = ({ darkMode }) => {
               </strong>
             </ExperienceP>
           </ExperienceCard>
-          <div>
-            <ExperienceCard>
-              <ExperienceH3>Languages / Technologies:</ExperienceH3>
-              <ExperienceP>
-                <FaJsSquare style={{ fontSize: "2rem" }} />
-                <strong>Javascript</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <FaReact style={{ fontSize: "2rem" }} />
-                <strong> React.js/Redux</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <FaHtml5 style={{ fontSize: "2rem" }} />
-                <strong> HTML</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <FaCss3Alt style={{ fontSize: "2rem" }} />
-                <strong>CSS</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <FaNodeJs style={{ fontSize: "2rem" }} />{" "}
-                <strong> Node.js</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <FaGitSquare style={{ fontSize: "2rem" }} />
-                <strong>Git</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <SiFirebase style={{ fontSize: "1.5rem" }} />
-                <strong> Firebase</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <DiMongodb style={{ fontSize: "1.5rem" }} />
-                <strong> MongoDB</strong>
-              </ExperienceP>
-              <ExperienceP>
-                <DiPostgresql style={{ fontSize: "1.5rem" }} />{" "}
-                <strong> PostgreSQL</strong>
-              </ExperienceP>
-            </ExperienceCard>
-          </div>
+
+          <StackCard>
+            <ExperienceH3>Languages / Technologies:</ExperienceH3>
+            <StackLanguages>
+              <LanguagesLeft>
+                <ExperienceP>
+                  <FaJsSquare style={{ fontSize: "2rem" }} />
+                  <strong>Javascript</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <FaReact style={{ fontSize: "2rem" }} />
+                  <strong> React.js/Redux</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <FaHtml5 style={{ fontSize: "2rem" }} />
+                  <strong> HTML</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <FaCss3Alt style={{ fontSize: "2rem" }} />
+                  <strong>CSS</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <FaNodeJs style={{ fontSize: "2rem" }} />{" "}
+                  <strong> Node.js</strong>
+                </ExperienceP>
+              </LanguagesLeft>
+              <LanguagesRight>
+                <ExperienceP>
+                  <FaGitSquare style={{ fontSize: "2rem" }} />
+                  <strong>Git</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <SiFirebase style={{ fontSize: "1.5rem" }} />
+                  <strong> Firebase</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <DiMongodb style={{ fontSize: "1.5rem" }} />
+                  <strong> MongoDB</strong>
+                </ExperienceP>
+                <ExperienceP>
+                  <DiPostgresql style={{ fontSize: "1.5rem" }} />{" "}
+                  <strong> PostgreSQL</strong>
+                </ExperienceP>
+              </LanguagesRight>
+            </StackLanguages>
+          </StackCard>
+
           <A
             className={darkMode ? " a__dark" : " a__light "}
             href="../images/Campbell_Rob_resume_2021.pdf"
