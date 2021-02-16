@@ -36,32 +36,39 @@ const Experience = ({ darkMode }) => {
         </ExperienceHeader>
         <ExperienceBody>
           <ExperienceCard>
-            <ExperienceH3>Systems Administrator</ExperienceH3>
-            <ExperienceH4>
-              2019-Present. School of Visual Arts: NYC, NEW YORK
-            </ExperienceH4>
-            <ExperienceP>
-              I'm currently a Systems Administrator in the MFA Computer Arts
-              program at the School of Visual Arts (SVA), working as part of a
+            <ExperienceH3>
+              Web Developer / IT Professional / Creative Technologist
+            </ExperienceH3>
+            <ExperienceP style={{ marginBottom: ".5rem" }}>
+              I've worked range of roles bridging art, design, and technology
+              within museums, galleries, colleges, and production studios in NYC
+              and Detroit (and a few places in-between).
+            </ExperienceP>
+            <ExperienceP style={{ marginBottom: ".5rem" }}>
+              Currently I'm a Systems Administrator of the MFA Computer Arts
+              program at the School of Visual Arts (SVA). Working as part of a
               small team to oversee and maintain lab machines and servers, as
-              well as the department's licensing of lab software.
+              well as the department's licensing of lab software
             </ExperienceP>
             <ExperienceP>
-              The role has meant using a wide-range of languages and
-              technologies, routinely creating bash scripts, using MDM software
-              (JAMF pro), and managing lab computers and peripheral equipment.
+              Check out some of my projects here:
+              <A
+                className={darkMode ? " a__dark" : " a__light "}
+                href="https://github.com/robdcampbell/"
+                target="_blank"
+              >
+                Github
+              </A>
             </ExperienceP>
             <ExperienceP>
               See more of my professional experience on:
-              <strong>
-                <A
-                  className={darkMode ? " a__dark" : " a__light "}
-                  href="https://www.linkedin.com/in/rob-campbell-a6354a75/"
-                  target="_blank"
-                >
-                  LinkedIn.
-                </A>
-              </strong>
+              <A
+                className={darkMode ? " a__dark" : " a__light "}
+                href="https://www.linkedin.com/in/rob-campbell-a6354a75/"
+                target="_blank"
+              >
+                LinkedIn.
+              </A>
             </ExperienceP>
           </ExperienceCard>
 
@@ -114,7 +121,7 @@ const Experience = ({ darkMode }) => {
           <A
             className={darkMode ? " a__dark" : " a__light "}
             href="../images/Campbell_Rob_resume_2021.pdf"
-            style={{ marginTop: "5rem", fontSize: "1.5rem" }}
+            style={{ marginTop: "1rem", fontSize: "1.5rem" }}
             target="_blank"
           >
             Resumé.(clickHere)

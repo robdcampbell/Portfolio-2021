@@ -33,11 +33,11 @@ const About = () => {
               <AboutP>
                 <strong>MFA: School of Visual Arts.</strong> New York, NY
               </AboutP>
-              <AboutP>
+              <AboutP style={{ paddingBottom: ".5rem" }}>
                 <strong> BFA: Northern Michigan University.</strong> Marquette,
                 MI
               </AboutP>
-              <AboutP>
+              <AboutP style={{ paddingBottom: ".5rem" }}>
                 After working a decade within museums, galleries, and auction
                 houses in NYC and Detroit (& a few places in-between), I
                 combined my interest and knowledge of technology & design to
@@ -47,7 +47,9 @@ const About = () => {
               </AboutP>
               <AboutP>
                 I spend most of my days running, playing Legos with my daughter,
-                and biking through the streets of Brooklyn/NYC.
+                and biking through the streets of Brooklyn/NYC. My native
+                language is English, I'm fluent in Portuguese (Brazilian) and
+                speak basic conversational Spanish.
               </AboutP>
             </AboutCard>
           </div>

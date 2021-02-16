@@ -61,10 +61,10 @@ export const ExperienceCard = styled.div`
 export const StackCard = styled.div`
   width: 100%;
   transition: all 0.2s ease-in-out;
-
+  margin-left: 3rem;
   @media screen and (max-width: 900px) {
     margin-top: 2rem;
-
+    margin-left: 0;
     padding: 0;
   }
 `;
@@ -84,7 +84,7 @@ export const LanguagesLeft = styled.div`
 export const LanguagesRight = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 3rem;
+  margin-left: 4rem;
   @media screen and (max-width: 900px) {
     margin-left: 0;
   }
@@ -130,7 +130,7 @@ export const ExperienceP = styled.p`
 export const A = styled.a`
   font-weight: 200;
   text-transform: uppercase;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   text-decoration: none;
 
   cursor: pointer;
