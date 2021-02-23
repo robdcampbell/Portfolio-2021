@@ -37,12 +37,17 @@ const Experience = ({ darkMode }) => {
         <ExperienceBody>
           <ExperienceCard>
             <ExperienceH3>
-              Web Developer / IT Professional / Creative Technologist
+              Software Engineer / Creative Technologist
             </ExperienceH3>
             <ExperienceP style={{ marginBottom: ".5rem" }}>
-              I've worked a range of roles bridging art, design, and technology
-              within museums, galleries, colleges, and production studios in NYC
-              and Detroit (and a few places in-between).
+              I'm a NYC-based Software Engineer and Creative Technologist with a
+              background in computer systems administration and fine art.
+            </ExperienceP>
+            <ExperienceP>
+              After a decade of working in exhibition production in museums,
+              galleries, and production studios throughout NYC, Detroit, and
+              abroad, I now aim to bridge the gap between design and engineering
+              through app, web, and creative project development.
             </ExperienceP>
             <ExperienceP style={{ marginBottom: ".5rem" }}>
               Currently, I'm a Systems Administrator of the MFA Computer Arts

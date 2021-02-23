@@ -18,12 +18,6 @@ export const ExperienceInnerWrapper = styled.div`
 export const ExperienceHeader = styled.div`
   width: 100%;
   padding-bottom: 2rem;
-
-  /* @media screen and (max-width: 900px) {
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0;
-  } */
 `;
 
 export const ExperienceBody = styled.div`
@@ -34,22 +28,18 @@ export const ExperienceBody = styled.div`
   align-items: flex-start;
   justify-content: center;
   grid-gap: 2rem;
-  /* padding: 0 3.5rem; */
 
   @media screen and (max-width: 900px) {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     padding: 0;
-    /* padding: 1rem; */
   }
 `;
 
-// MAKE ALL CONTAINERS SAME HEIGHT, NO MATTER WHAT CONTENT
 export const ExperienceCard = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 900px) {
@@ -130,8 +120,6 @@ export const ExperienceP = styled.p`
 export const A = styled.a`
   font-weight: 200;
   text-transform: uppercase;
-  /* margin-left: 1rem; */
   text-decoration: none;
-
   cursor: pointer;
 `;

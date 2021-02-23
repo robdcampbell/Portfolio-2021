@@ -8,7 +8,6 @@ import {
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight,
 } from "./HeroElements";
 
 const HeroSection = ({ setColorMode, darkMode }) => {
@@ -23,7 +22,7 @@ const HeroSection = ({ setColorMode, darkMode }) => {
       <div className="hero__subContainer">
         <HeroH1>rob campbell</HeroH1>
         <HeroP>
-          Web Developer & Creative Technologist based in NYC.
+          Software Engineer & Creative Technologist based in NYC.
           <HeroBtnWrapper>
             <Button to="#" primary="true" dark="true" onClick={setColorMode}>
               {darkMode ? "LightMode" : "DarkMode"}

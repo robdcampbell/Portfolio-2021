@@ -17,32 +17,21 @@ export const homeObjOne = {
   primary: false,
   dark: true,
   darkText: true,
-  codeUrl: "https://github.com/robdcampbell/projectsDashboard-Auth",
+  codeUrl: "https://github.com/robdcampbell/Project-Tracker-Moonbase",
   projectUrl: "https://projectdashboard-production.web.app/login",
 };
 
 export const homeObjTwo = {
-  //page
   id: "project-2",
-  // Background
   lightBg: false,
-  //Text Color
   lightText: true,
-  // Description text color
   lightTextDesc: true,
-  //Topline - small intro text
   topLine: "02.",
-  // headline - content title
   headline: "robcampbelldev.com (this website) ",
-  // description
   description:
     "Using React and React Styled Components, I assembled this reponsive website to display what I've been tinkering at.",
-  // button
-  //buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
-  //imgStart swaps the image and text locations
   imgStart: false,
-  // Image **** HAVING ISSUES WITH THE PATH
   img: "../../images/portfolio_dark.png",
   alt: "Project 2",
   primary: true,

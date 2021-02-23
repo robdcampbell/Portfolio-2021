@@ -2,8 +2,6 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
-// styled components: exporting the variable = styled.TAGNAME
-// followed up with backTicks, and the CSS properties added to that tag
 export const Nav = styled.nav`
   height: 80px;
   margin-top: -80px;
@@ -127,7 +125,7 @@ export const NavItem = styled.li`
     border-bottom: #fff;
   }
 `;
-//&.active is the active underline at the Nav
+
 export const NavLinks = styled(LinkS)`
   display: flex;
   text-transform: uppercase;

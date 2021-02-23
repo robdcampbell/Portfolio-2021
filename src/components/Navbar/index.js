@@ -16,6 +16,8 @@ import {
   ChangeColorMode,
 } from "./NavbarElements";
 
+// NOTE: INLINE-STYLES COLORS ARE A RESULT OF USING STYLE COMPONENTS, WILL FIX.
+
 const Navbar = ({ toggle, darkMode, setColorMode }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const [robAvatar, setRobAvatar] = useState(false);
@@ -34,9 +36,6 @@ const Navbar = ({ toggle, darkMode, setColorMode }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
-    // return () => {
-    //   cleanup
-    // }
   }, []);
 
   return (

@@ -21,21 +21,15 @@ export const HeroContainer = styled.div`
 
 export const HeroH1 = styled.h1`
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 0.9;
-
   font-size: 5rem;
   margin-bottom: 0.5rem;
   max-width: 500px;
   transition: 1s;
-  /* line-height: 0.7; */
-
-  letter-spacing: -0.1rem;
-  /* border-bottom: #555555 solid 1px; */
 
   &:hover {
     color: #c0c0c0;
-    /* letter-spacing: 0.1rem; */
   }
 
   @media screen and (max-width: 480px) {

@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 
 export const FooterWrap = styled.div`
   border-top: #757272 solid 1px;
+  
+  // background: linear-gradient(90deg, rgb(111, 8, 196), rgb(230, 22, 102));
+  
   padding: 3rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-evenly;
   align-items: baseline;
-  /* background-color: red; */
+  background: linear-gradient()
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;

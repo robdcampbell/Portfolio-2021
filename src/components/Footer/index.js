@@ -30,7 +30,7 @@ const Footer = ({ darkMode }) => {
           exact="true"
           offset={-80}
         >
-          <BsArrow90DegUp className={darkMode ? " a__dark " : " a__light"} />{" "}
+          <BsArrow90DegUp className={darkMode ? " a__dark " : " a__light"} />
           <FooterP className={darkMode ? " a__dark " : " a__light"}>
             to the top.
           </FooterP>
