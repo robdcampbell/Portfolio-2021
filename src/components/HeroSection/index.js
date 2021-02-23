@@ -39,7 +39,7 @@ const HeroSection = ({ setColorMode, darkMode }) => {
               spy="true"
               exact="true"
             >
-              Projects {hover ? <ArrowForward /> : <ArrowRight />}
+              Projects <ArrowForward />
             </Button>
           </HeroBtnWrapper>
         </HeroP>
