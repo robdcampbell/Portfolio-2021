@@ -79,6 +79,9 @@ export const Subtitle = styled.p`
   font-size: 1rem;
   line-height: 1.5rem;
 `;
+export const Technologies = styled.p`
+  margin: 1rem 0;
+`;
 
 export const BtnWrap = styled.div`
   display: flex;

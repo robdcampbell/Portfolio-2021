@@ -134,5 +134,16 @@ Intro Section
 */
 
 .intro__section {
-  background-color: red;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 0rem;
+
+  min-height: 300px;
+}
+.intro__section > h2 {
+  margin-bottom: 1rem;
+}
+.intro__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

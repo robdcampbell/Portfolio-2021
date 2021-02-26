@@ -9,6 +9,7 @@ export const homeObjOne = {
   headline: "MoonBase. Projects Dashboard",
   description:
     "Built using React.js and Semantic UI on the frontend and Firebase for databasing, authentication, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in development - this app helps to stay on track.",
+  technologies: "",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
@@ -27,13 +28,36 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: "02.",
+  headline: "HomeRoom",
+  description:
+    "A resource to make preparing for your financial future dead simple and easy to visualize. Currently in progress.",
+  technologies: "",
+  // buttonLabel: "View Project",
+  buttonLabel2: "View Source Code",
+  imgStart: false,
+  img: "../../images/homeroom.png",
+  alt: "Project 2",
+  primary: true,
+  dark: true,
+  darkText: false,
+  codeUrl: "https://github.com/robdcampbell/HomeRoom",
+  // projectUrl: "https://react-movielibrary-rdc.netlify.app/",
+};
+
+export const homeObjThree = {
+  id: "project-3",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "03.",
   headline: "robcampbelldev.com (this website) ",
   description:
     "Using React and React Styled Components, I assembled this reponsive website to display what I've been tinkering at.",
+  technologies: "",
   buttonLabel2: "View Source Code",
   imgStart: false,
   img: "../../images/portfolio_dark.png",
-  alt: "Project 2",
+  alt: "Project 3",
   primary: true,
   dark: true,
   darkText: false,
@@ -41,20 +65,21 @@ export const homeObjTwo = {
   // projectUrl: "https://react-movielibrary-rdc.netlify.app/",
 };
 
-export const homeObjThree = {
-  id: "project-3",
+export const homeObjFour = {
+  id: "project-4",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "03.",
+  topLine: "04.",
   headline: "Authentication Boilerplate",
   description:
     "Using React.js and React-Bootstrap, this starter project can be reconfigured with a new Firebase project simply by updating the Firebase SDK configuration info in a private environmental variable file",
+  technologies: "",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
   img: "../../images/authBoilerPlate_ORANGE.png",
-  alt: "Project 3",
+  alt: "Project 4",
   primary: false,
   dark: true,
   darkText: true,
@@ -62,20 +87,21 @@ export const homeObjThree = {
   projectUrl: "https://rc-auth-development.web.app/",
 };
 
-export const homeObjFour = {
-  id: "project-4",
+export const homeObjFive = {
+  id: "project-5",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "04.",
+  topLine: "05.",
   headline: "Movie Library (React.js)",
   description:
     "Fetching movie data from the OMDb API, this React.js Movie Library displays movies based on your search criteria.",
+  technologies: "",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: false,
   img: "../../images/movieLibraryPic.png",
-  alt: "Project 4",
+  alt: "Project 5",
   primary: true,
   dark: true,
   darkText: false,
@@ -83,12 +109,13 @@ export const homeObjFour = {
   projectUrl: "https://react-movielibrary-rdc.netlify.app/",
 };
 
-export const homeObjFive = {
-  id: "project-5",
+// NOT DONE
+export const homeObjSix = {
+  id: "project-6",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "05. ",
+  topLine: "06. ",
   headline: "NASA Explorer (in progress...)",
   description:
     "Using external data accessible through NASA's public API's, this app is used to exhibit daily information provided from NASA.",
@@ -96,7 +123,7 @@ export const homeObjFive = {
   buttonLabel2: "View Source Code",
   imgStart: true,
   img: "../../images/svg-5.svg",
-  alt: "Project 5",
+  alt: "Project 6",
   primary: false,
   dark: true,
   darkText: true,

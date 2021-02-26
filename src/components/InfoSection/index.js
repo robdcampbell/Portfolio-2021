@@ -12,6 +12,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  Technologies,
   BtnWrap,
   ImgWrap,
   Img,
@@ -43,6 +44,8 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <h4>Built using:</h4>
+                <Technologies>this is a test</Technologies>
                 <BtnWrap>
                   {buttonLabel && (
                     <ButtonE

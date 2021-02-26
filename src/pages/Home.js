@@ -38,7 +38,7 @@ const Home = () => {
           setColorMode={setColorMode}
         />
         <HeroSection darkMode={darkMode} setColorMode={setColorMode} />
-        <Intro />
+        {/* <Intro /> */}
         <InfoSection {...homeObjOne} setColorMode={setColorMode} />
         <InfoSection {...homeObjTwo} setColorMode={setColorMode} />
         <InfoSection {...homeObjThree} setColorMode={setColorMode} />

@@ -97,7 +97,7 @@ export const ImgWrap = styled.div`
 `;
 export const Img = styled.img`
   margin: 0;
-  max-height: 420px;
+  max-width: 300px;
   padding-right: 0;
   border-radius: 0.5rem;
 `;
