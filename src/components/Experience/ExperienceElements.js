@@ -8,7 +8,6 @@ export const ExperienceContainer = styled.section`
 export const ExperienceInnerWrapper = styled.div`
   max-width: 1200px;
   padding: 3rem;
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,9 +87,9 @@ export const ExperienceH2 = styled.h2`
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
-    /* align-self: flex-start; */
   }
 `;
+
 export const ExperienceH3 = styled.h3`
   font-weight: 200;
   text-transform: uppercase;

@@ -31,7 +31,6 @@ export const NavbarContainer = styled.div`
 `;
 export const NavLeft = styled.div`
   padding-left: 1.5rem;
-  /* background-color: red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
@@ -50,16 +49,12 @@ export const NavRight = styled.div`
   }
 `;
 
-// Named like this because the "LinkR" will act as a logo link, and use router to send you to another page.
 export const NavLogo = styled(LinkR)`
   cursor: pointer;
   font-size: 1.5rem;
-  /* border-top: red solid 1px;
-  border-bottom: red solid 1px; */
   padding: 0;
   align-items: center;
   margin: 0;
-  /* padding: 2rem; */
   font-weight: 200;
   text-decoration: none;
   &:hover {
@@ -96,15 +91,12 @@ export const NavMenu = styled.ul`
 `;
 
 export const ChangeColorMode = styled.p`
-  /* border-top: red solid 1px;
-  border-bottom: red solid 1px; */
   padding-top: 0.3rem;
   cursor: pointer;
   &:hover {
     transition: all 0.2s ease-in-out;
   }
   @media screen and (max-width: 768px) {
-    /* margin-right: 1rem; */
     padding-top: 0.25rem;
     display: block;
     position: absolute;
@@ -119,7 +111,6 @@ export const ChangeColorMode = styled.p`
 `;
 
 export const NavItem = styled.li`
-  /* height: 80px; */
   &:hover {
     transition: all 0.2s ease-in-out;
     border-bottom: #fff;

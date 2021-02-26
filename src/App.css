@@ -13,10 +13,6 @@ StyleSheet Table of Contents
 */
 
 /*
-=============== =============== =============== 
-*/
-
-/*
 =============== 
 Variables
 ===============
@@ -127,6 +123,16 @@ a {
 
 /*
 =============== 
-Global Styles
+Hero Section
 ===============
 */
+
+/*
+=============== 
+Intro Section
+===============
+*/
+
+.intro__section {
+  background-color: red;
+}

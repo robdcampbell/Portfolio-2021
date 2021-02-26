@@ -23,19 +23,15 @@ export const AboutInnerWrapper = styled.div`
 
 export const AboutHeader = styled.div`
   width: 100%;
-  /* background-color: red; */
   display: flex;
   justify-content: flex-start;
 
-  /* background-color: red; */
   @media screen and (max-width: 900px) {
     justify-content: flex-start;
   }
 `;
 
 export const AboutBody = styled.div`
-  /* margin: 0 auto; */
-  /* background-color: red; */
   display: flex;
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -100,7 +96,6 @@ export const ImgWrap = styled.div`
   }
 `;
 export const Img = styled.img`
-  /* width: 100%; */
   margin: 0;
   max-height: 420px;
   padding-right: 0;

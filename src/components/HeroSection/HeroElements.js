@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-export const HeroContainer = styled.div`
+export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding: 2rem;
   min-height: 690px;
   max-width: 1600px;
@@ -17,6 +17,11 @@ export const HeroContainer = styled.div`
     min-height: 100vh;
     margin-top: 0;
   }
+`;
+
+export const HeroContainer = styled.div`
+  width: 100%;
+  max-width: 1000px;
 `;
 
 export const HeroH1 = styled.h1`
@@ -54,7 +59,6 @@ export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
   justify-content: flex-start;
-  /* flex-direction: column; */
   align-items: center;
 `;
 

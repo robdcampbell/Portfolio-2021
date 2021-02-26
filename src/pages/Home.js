@@ -14,6 +14,7 @@ import Navbar from "../components/Navbar";
 import Experience from "../components/Experience";
 import About from "../components/About";
 import Sidebar from "../components/Sidebar";
+import Intro from "../components/Intro";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,7 @@ const Home = () => {
           setColorMode={setColorMode}
         />
         <HeroSection darkMode={darkMode} setColorMode={setColorMode} />
+        <Intro />
         <InfoSection {...homeObjOne} setColorMode={setColorMode} />
         <InfoSection {...homeObjTwo} setColorMode={setColorMode} />
         <InfoSection {...homeObjThree} setColorMode={setColorMode} />

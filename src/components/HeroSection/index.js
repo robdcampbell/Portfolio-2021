@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-// import Image from "../../images/sao_paulo.jpg";
 import { Button } from "../ButtonElements";
-// import { animateScroll as scroll } from "react-scroll";
 import {
+  HeroWrapper,
   HeroContainer,
   HeroH1,
   HeroP,
@@ -18,8 +17,8 @@ const HeroSection = ({ setColorMode, darkMode }) => {
   };
 
   return (
-    <HeroContainer>
-      <div className="hero__subContainer">
+    <HeroWrapper>
+      <HeroContainer>
         <HeroH1>rob campbell</HeroH1>
         <HeroP>
           Software Engineer & Creative Technologist based in NYC.
@@ -33,17 +32,17 @@ const HeroSection = ({ setColorMode, darkMode }) => {
               onMouseLeave={onHover}
               primary="true"
               dark="true"
-              smooth="true"
+              smooth={true}
               duration={500}
-              spy="true"
+              spy={true}
               exact="true"
             >
               Projects <ArrowForward />
             </Button>
           </HeroBtnWrapper>
         </HeroP>
-      </div>
-    </HeroContainer>
+      </HeroContainer>
+    </HeroWrapper>
   );
 };
 
