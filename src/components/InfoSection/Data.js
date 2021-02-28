@@ -9,7 +9,7 @@ export const homeObjOne = {
   headline: "MoonBase. Projects Dashboard",
   description:
     "Built using React.js and Semantic UI on the frontend and Firebase for databasing, authentication, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in development - this app helps to stay on track.",
-  technologies: "",
+  technologies: "JavaScript, React.js, Firebase",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
@@ -31,7 +31,7 @@ export const homeObjTwo = {
   headline: "HomeRoom",
   description:
     "A resource to make preparing for your financial future dead simple and easy to visualize. Currently in progress.",
-  technologies: "",
+  technologies: "JavaScript, React.js, Firebase, D3.js",
   // buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: false,
@@ -51,9 +51,8 @@ export const homeObjThree = {
   lightTextDesc: true,
   topLine: "03.",
   headline: "robcampbelldev.com (this website) ",
-  description:
-    "Using React and React Styled Components, I assembled this reponsive website to display what I've been tinkering at.",
-  technologies: "",
+  description: "My digital portofolio to see what I've been tinkering at",
+  technologies: "JavaScript, React.js",
   buttonLabel2: "View Source Code",
   imgStart: false,
   img: "../../images/portfolio_dark.png",
@@ -74,7 +73,7 @@ export const homeObjFour = {
   headline: "Authentication Boilerplate",
   description:
     "Using React.js and React-Bootstrap, this starter project can be reconfigured with a new Firebase project simply by updating the Firebase SDK configuration info in a private environmental variable file",
-  technologies: "",
+  technologies: "JavaScript, React.js, Firebase, Bootstrap",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
@@ -96,7 +95,7 @@ export const homeObjFive = {
   headline: "Movie Library (React.js)",
   description:
     "Fetching movie data from the OMDb API, this React.js Movie Library displays movies based on your search criteria.",
-  technologies: "",
+  technologies: "JavaScript, React.js",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: false,

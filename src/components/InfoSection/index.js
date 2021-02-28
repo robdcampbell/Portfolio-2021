@@ -27,6 +27,7 @@ const InfoSection = ({
   headline,
   darkText,
   description,
+  technologies,
   buttonLabel,
   buttonLabel2,
   img,
@@ -45,7 +46,7 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <h4>Built using:</h4>
-                <Technologies>this is a test</Technologies>
+                <Technologies>{technologies}</Technologies>
                 <BtnWrap>
                   {buttonLabel && (
                     <ButtonE
