@@ -48,10 +48,10 @@ const About = () => {
                 Aside from technology, I love learning about languages and art.
               </AboutP>
               <AboutP>
-                Natively I speak English, I'm fluent in Portuguese (Brazilian)
-                and speak basic conversational Spanish. I spend most of my days
-                running, playing Legos with my daughter, and biking through the
-                streets of Brooklyn/NYC.
+                I'm natively an English speaker, and speak Portuguese
+                (Brazilian) & basic conversational Spanish. I spend most of my
+                days running, playing Legos with my daughter, and biking through
+                the streets of Brooklyn/NYC.
               </AboutP>
               <AboutP style={{ paddingBottom: ".5rem" }}></AboutP>
             </AboutCard>

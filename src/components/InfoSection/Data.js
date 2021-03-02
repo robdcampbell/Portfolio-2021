@@ -30,18 +30,18 @@ export const homeObjTwo = {
   topLine: "02.",
   headline: "HomeRoom",
   description:
-    "A resource to make preparing for your financial future dead simple and easy to visualize. Currently in progress.",
+    "A resource to make preparing for your financial future simple and easy to visualize. ( Currently in progress. )",
   technologies: "JavaScript, React.js, Firebase, D3.js",
-  // buttonLabel: "View Project",
+  buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: false,
-  img: "../../images/homeroom.png",
+  img: "../../images/homeroom-home.png",
   alt: "Project 2",
   primary: true,
   dark: true,
   darkText: false,
   codeUrl: "https://github.com/robdcampbell/HomeRoom",
-  // projectUrl: "https://react-movielibrary-rdc.netlify.app/",
+  projectUrl: "https://rc-homeroom.netlify.app/",
 };
 
 export const homeObjThree = {
@@ -51,8 +51,8 @@ export const homeObjThree = {
   lightTextDesc: true,
   topLine: "03.",
   headline: "robcampbelldev.com (this website) ",
-  description: "My digital portofolio to see what I've been tinkering at",
-  technologies: "JavaScript, React.js",
+  description: "My digital portofolio to see what I've been tinkering at.",
+  technologies: "JavaScript, React.js, React Styled Components",
   buttonLabel2: "View Source Code",
   imgStart: false,
   img: "../../images/portfolio_dark.png",

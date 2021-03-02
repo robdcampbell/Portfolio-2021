@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-  /* border-top: #757272 solid 1px; */
   padding: 5rem 2rem;
+
+  @media screen and (max-width: 900px) {
+    border-bottom: #757272 solid 1px;
+  }
 
   @media screen and (max-width: 768px) {
     padding: 4rem 2rem;
@@ -31,7 +34,7 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 900px) {
     grid-template-columns: 1fr;
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1' 'col2' `};
@@ -86,7 +89,7 @@ export const Technologies = styled.p`
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 900px) {
     display: block;
   } ;
 `;

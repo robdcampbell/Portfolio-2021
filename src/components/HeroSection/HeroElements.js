@@ -26,6 +26,7 @@ export const HeroContainer = styled.div`
 
 export const HeroH1 = styled.h1`
   text-transform: uppercase;
+
   font-weight: 100;
   line-height: 0.9;
   font-size: 5rem;

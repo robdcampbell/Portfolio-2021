@@ -19,7 +19,7 @@ const HeroSection = ({ setColorMode, darkMode }) => {
   return (
     <HeroWrapper>
       <HeroContainer>
-        <HeroH1>rob campbell</HeroH1>
+        <HeroH1>Rob Campbell</HeroH1>
         <HeroP>
           Software Engineer & Creative Technologist based in NYC.
           <HeroBtnWrapper>

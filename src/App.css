@@ -66,14 +66,13 @@ CSS Variables
   --fixed-width: 620px;
 }
 
-
 /*
 =========================== 
 CSS KeyFrame Animations
 ===========================
 */
 
-
+/*
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -83,9 +82,10 @@ CSS KeyFrame Animations
     transform: translateX(0);
     opacity: 1;
   }
-/* INCLUDE THIS IN ANIMATED CLASS */
-  /* animation: 1.75s ease-in-out slideInFromLeft; */
 
+  */
+/* INCLUDE THIS IN ANIMATED CLASS */
+/* animation: 1.75s ease-in-out slideInFromLeft; */
 
 /*
 =============== 
@@ -114,7 +114,7 @@ a {
 }
 .dark__mode {
   color: #fff;
-  background-color: var(--clr-dark-theme);
+  background-color: var(--rc-dark-theme);
 }
 
 .light__mode {
